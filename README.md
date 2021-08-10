@@ -1,4 +1,4 @@
-# marathon-website
+# marathon-organizing-website
 
 This is a Marathon Organizing Website made only with HTML and CSS.
 No Flexbox or Bootstrap or Javascript was used for making this website.
