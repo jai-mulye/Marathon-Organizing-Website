@@ -1,0 +1,128 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+label {
+	font: helvetica;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	font-size-adjust: 0.60;
+
+}
+
+button:hover {
+	color: white;
+	background-color: tomato;
+}
+
+.d1, .d2, .d3, .d4 {
+	padding: 10px;
+	border: 2px;
+	font-size: 25px;
+}
+
+.f {
+	width: 450px;
+	height: ;
+	background-color: rgba(255, 255, 255, 0.25);
+	padding: 10px;
+	margin: 50px;
+	border-radius: 5px;
+}
+
+.d1 h1 {
+	color: tomato;
+	font-family: 'Fredoka One', cursive;
+	margin-left: 25%;
+	margin-bottom: 20px;
+}
+
+.d1 #fname {
+	width: 125px;
+	height: 25px;
+	text-align: center;
+	border: tomato 2px solid;
+	border-radius: 7.5px;
+	margin: 10px;
+	margin-left: 33%;
+	font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.d1 #lname {
+	width: 125px;
+	height: 25px;
+	text-align: center;
+	border: tomato 2px solid;
+	border-radius: 7.5px;
+	margin: 10px;
+	margin-left: 33%;
+	font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.d2 label {
+	margin: 10px;
+	margin-left: 10%;
+	font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.d2 #age {
+
+}
+
+.d3 #r {
+	font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+	margin-left: 10%;
+}
+
+.d3 #fr,#hm, #fm {
+	margin: 10px;
+	margin-left: 10%;
+}
+
+.d4 #pno, #mail {
+	width: 150px;
+	height: 25px;
+	text-align: center;
+	border: tomato 2px solid;
+	border-radius: 7.5px;
+	margin: 10px;
+	margin-left: 30%;
+	font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.f button {
+	width: 75px;
+	height: 25px;
+	text-align: center;
+	color: white;
+	background-color: tomato;
+	border: tomato 2px solid;
+	border-radius: 5px;
+	margin: 10px;
+	margin-left: 75%;
+}
+
+.f button:hover {
+	transform: translateY(-5px);
+	transition: 0.5s;
+	border: white 1.5px solid;
+}
+
+#d2d3 {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+}

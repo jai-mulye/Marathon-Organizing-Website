@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Marathon Form</title>
+  <link rel="stylesheet" href="css/style-reg.css">
+  <link rel="stylesheet" href="css/nav-bar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
+</head>
+<body background="images/start2.jpg">
+
+<!-- Navbar -->
+<nav>
+     <ul>
+       <li class="a"><a href="index.html">Home</a></li>
+       <li class="a"><a active href="m_registration.html">Registration</a></li>
+       <li class="a"><a href="m_announcements.html">Announcement</a></li>
+       <li class="a"><a href="m_gallery.html">Gallery</a></li>
+     </ul>
+   </nav>
+
+<!-- Form Container -->
+ <div class="f">
+  <!-- Form -->
+   <form action="/tack">
+    <!-- Name -->
+    <div class="d1">
+      <h1>Register</h1>
+      <input type="text" id="fname" placeholder="First Name" required="required"><br>
+      <input type="text" id="lname" placeholder="Last Name" required="required">
+    </div>
+
+    <section id="d2d3">
+      <!-- Age -->
+      <div class="d2">
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age">
+         <option value="1">Under 18</option>
+         <option value="2">18 - 30</option>
+         <option value="3">31 - 50</option> 
+       </select> 
+     </div>
+
+     <!-- Race Category -->
+     <div class="d3">
+      <label id="r">Select a Race</label><br>
+      <input type="radio" id="fr" name="Marathon">
+      <label for="fr">Fun Run 5k</label><br>
+      <input type="radio" id="hm" name="Marathon">
+      <label for="hm">Half Marathon</label><br> 
+      <input type="radio" id="fm" name="Marathon">
+      <label for="fm">Full Marathon</label><br> 
+    </div>
+  </section>
+  
+  <!-- Contact Info. -->
+  <div class="d4">
+    <input type="text" id="pno" placeholder="Phone Number (Optional)"><br>
+    <input type="email" id="mail" placeholder="Email" required="required">  
+  </div>
+
+  <button type="submit">Submit</button>
+</form>
+</div>
+
+<!-- Footer -->
+<footer>
+  <section class="foot2">
+    <h3>MENU</h3>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="m_registration.html">Registraion</a></li>
+      <li><a href="m_announcements.html">Announcements</a></li>
+      <li><a href="m_gallery.html">Gallery</a></li>
+    </ul>
+  </section>
+  <section class="foot3">
+    <h3>CITY</h3>
+    <ul>
+      <li><a href="">Mumbai</a></li>
+      <li><a href="">Pune</a></li>
+      <li><a href="">Hydrabad</a></li>
+      <li><a href="">Banglore</a></li>
+    </ul>
+  </section>
+  <section class="foot4">
+    <h3>CONTACT</h3>
+    <ul>
+      <li>E - abc@gmail.com</li>
+      <li>A - Borivali (E)</li>
+      <li>T - 0222XXXXXXX</li>
+      <li>P - +91 XXXXXXXXXX</li>
+    </ul>
+  </section>
+  <section class="foot1">
+    <h3>SOCIAL</h3>
+    <ul>
+      <li><a href=""><img src="images/ig-logo.png" alt=""></a></li>
+      <li><a href=""><img src="images/fb-logo.png" alt=""></a></li>
+      <li><a href=""><img src="images/twitter-logo.png" alt=""></a></li>
+    </ul>
+  </section>
+</footer>
+
+</body>
+</html>

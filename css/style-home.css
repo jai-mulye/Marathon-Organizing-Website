@@ -1,0 +1,84 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-size: 100%;
+}
+
+.s1{
+	width: 500px;
+	height: 150px;
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+	background-color: rgba(255, 244, 92, 0.5);
+	color: rgba(48, 7, 171, 1);
+	display: inline-block;
+	padding: 40px;
+	margin: 20px;
+	margin-top: 5%;
+	border: 2px rgba(255, 255, 255, 0.75);
+	border-radius: 25px;
+}
+
+#p2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+}
+
+.s1 p {
+	padding-top: 5px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.s2 {
+	width: 300px;
+	height: 197px;
+	background-color: rgba(255, 255, 255, 0.5);
+	/*background-color: rgba(255, 244, 92, 0.5);*/
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 2px rgba(255, 255, 255, 0.75);
+	border-radius: 25px;
+}
+
+.s2 h1 {
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(48, 7, 171, 1);
+	font-size: 25px;
+	padding: 20px 20px 5px;
+	margin-left: 15%;
+}
+
+.s2 h2 {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgba(48, 7, 171, 1);
+	font-size: 25px;
+	padding: 10px;
+	margin-left: 30%;
+	margin-bottom: 20px;
+}
+
+.s2 a {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	padding: 3px 30px;
+	margin-left: 32%;
+	text-decoration-line: none;
+	color: rgba(48, 7, 171, 1);
+	border: 2px black solid;
+}
+
+.s2 a:hover {
+	color: white;
+	background-color: rgba(48, 7, 171, 0.75);
+	transition: 0.75s;
+	border: white 2px solid;
+}
